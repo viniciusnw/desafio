@@ -1,31 +1,23 @@
-## Desafio front-end
 
-Este desafio é parte do processo seletivo para o cargo de Desenvolvedor Front-end no Clipping, cuja vaga está descrita [neste link](http://ajuda.clippingcacd.com.br/vagas/oportunidade-para-desenvolvedor-no-clipping).
+# Frontend Test
 
-O teste é focado em design de código e conhecimento de orientação a objetos. O objetivo é avaliar sua experiência em escrever um código de fácil manutenção, baixo acoplamento e alta coesão.
+## 1.0 Instruções
 
+Dentro da pasta /dist/ se encontra o build do projeto: (index.html, bundle.js, bundle.js.map)
+Na pasta /src/ se encontra os fontes.
 
-### Apresentação do problema
+para rodar o projeto pelos fontes:
 
-O arquivo `index.html` contém o esqueleto de uma aplicação de chat totalmente *bare-bones*: uma `<ul>` com uma lista de mensagens enviadas, e um `<button>` + `<input>` para envio de novas mensagens.
+na pasta raiz execute o comando:
+```
+$ npm install
+```
 
-A feature inicial de nossa aplicação é bastante simples: o usuário deve poder 
-entrar uma mensagem na caixa de texto e, ao apertar o botão "Enviar" (ou 
-pressionar <kbd>Enter</kbd>), a mensagem deverá aparecer na lista de mensagens.
+depois dos pacotes instalados, execute o comando:
+```
+$ npm run start
+````
 
-Isoladamente, essa é uma feature simples de implementar, mas queremos que você 
-leve em conta a evolução futura do software. Imagine que o app irá crescer em 
-features, e adicionar coisas como:
-* envio de mensagens via ajax, com as respostas vindo via `long-polling`
-* chat em realtime via WebRTC ou Firebase
+O projeto se encontrara disponivel em: http://localhost:3000
 
-Você deve pensar num design de código que suporte esses casos de uso sem grandes modificações.
-
-**IMPORTANTE: Não é necessário integrar o código ao backend! O software deve ser estruturado de forma que seja fácil integrar com diferentes estratégias de backend, mas neste desafio estas features não precisam ser implementadas.**
-
-### Avaliação
-
-Para nos enviar seu código, você pode fazer um fork desse repositório e nos mandar um pull-request.
-
-### Créditos
-Adaptado de https://github.com/Creditas/challenge
+# 🛠
