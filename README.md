@@ -4,7 +4,10 @@
 ## 1.0 Instruções
 
 Dentro da pasta /dist/ se encontra o build do projeto: (index.html, bundle.js, bundle.js.map)
+
 Na pasta /src/ se encontra os fontes.
+
+
 
 para rodar o projeto pelos fontes:
 
